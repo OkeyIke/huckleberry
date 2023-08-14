@@ -4,8 +4,8 @@
 
   --primary: hsl(160deg, 100%, 30%);
   --secondary-lighter: hsl(45deg, 100%, 50%);
-  --secondary-darker: hsl(46deg, 100%, 40%);
 
+  --secondary-darker: hsl(46deg, 100%, 40%);
   --black: hsl(0deg, 0%, 0%);
   --very-dark: hsl(0deg, 0%, 10%);
   --dark: hsl(0deg, 0%, 30%);
@@ -40,7 +40,7 @@ header {
 }
 
 .max-width-wrapper {
-  max-width: 800px;
+  width: 800px;
   padding-right: 24px;
   padding-left: 24px;
 
@@ -51,9 +51,6 @@ header {
 .intro-chunk {
   margin-top: 96px;
   margin-bottom: 64px;
-}
-
-.intro-chunk p {
   max-width: 415px;
 }
 
