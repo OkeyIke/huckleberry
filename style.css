@@ -21,14 +21,17 @@ body {
 }
 
 .title {
-  margin-bottom: 48px;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 3rem; 
 }
 
 p {
   font-size: 1.25rem;
+  line-height: 1.5;
   color: var(--black);
   margin-top: 16px;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 strong {
@@ -40,10 +43,8 @@ header {
 }
 
 .max-width-wrapper {
-  width: 800px;
-  padding-right: 24px;
-  padding-left: 24px;
-
+  max-width: 800px;
+  padding: 0 24px;
   margin: 0 auto;
   min-height: 100%;
 }
@@ -56,8 +57,7 @@ header {
 
 main {
   background-color: var(--medium);
-  padding-top: 72px;
-  padding-bottom: 72px;
+  padding: 64px 0;
 }
 
 .card {
