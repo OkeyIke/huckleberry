@@ -60,12 +60,9 @@ main {
   padding-bottom: 72px;
 }
 
-main .max-width-wrapper {
+.card {
   background-color: var(--white);
   border-bottom: 8px solid var(--light);
-}
-
-.card {
   padding: 24px;
   margin: 0 -24px;
 }
